@@ -1,7 +1,7 @@
 import { Text, Spacer, Flex, Link } from "vcc-ui";
 import { Car } from "../types/car.interface";
 import Image from "next/image";
-import styles from "../../public/css/CarCard.module.css";
+import styles from "../../public/css/carCard.module.css";
 
 interface CardProsps {
   car: Car;
@@ -49,6 +49,8 @@ export function CarCard({ car }: CardProsps) {
         extend={{
           justifyContent: "center",
           alignItems: "center",
+          flexDirection: "row",
+          gap: "10px",
         }}
       >
         <Link href="https://www.volvocars.com/" arrow="right">
