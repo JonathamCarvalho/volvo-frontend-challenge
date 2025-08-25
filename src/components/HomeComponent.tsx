@@ -39,7 +39,7 @@ export const HomeCompent: React.FC = () => {
     let scrollSize = CardList?.scrollWidth ?? 0;
     let scrollPosition = CardList?.scrollLeft ?? 0;
 
-    CardList?.scrollTo({ left: scrollPosition + cardSize * index });
+    CardList?.scrollTo({ left: cardSize * index });
     setSelected(index);
   };
 
