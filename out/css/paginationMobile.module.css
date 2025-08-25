@@ -1,0 +1,31 @@
+.btnWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn {
+  width: 12px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #d5d5d5;
+  padding: 0;
+  border: none;
+}
+
+.btnSelected {
+  width: 12px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #1e1e1e;
+  padding: 0;
+  border: none;
+}
+
+@media (min-width: 600px) {
+  .btnWrapper {
+    display: none;
+  }
+}
