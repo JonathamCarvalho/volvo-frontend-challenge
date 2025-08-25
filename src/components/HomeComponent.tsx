@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { userCars } from "../hooks/useCars";
+import { useCars } from "../hooks/useCars";
 import { CarCard } from "./CarCard";
 import styles from "../../public/css/home.module.css";
 import { Text } from "vcc-ui";
@@ -8,7 +8,7 @@ import PaginationDesktop from "./PaginationDesktop";
 import PaginationMobile from "./PaginationMobile";
 
 export const HomeCompent: React.FC = () => {
-  const cars = userCars();
+  const cars = useCars();
   const [selected, setSelected] = useState(0);
 
   const onClickLeft = () => {

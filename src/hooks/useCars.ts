@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Car } from "../types/car.interface";
 
-export function userCars() {
+export function useCars() {
   const [cars, setCars] = useState<Car[]>([]);
 
   useEffect(() => {
