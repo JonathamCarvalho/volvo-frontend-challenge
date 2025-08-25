@@ -42,7 +42,7 @@ export function CarCard({ car }: CardProsps) {
         </Text>
       </Flex>
       <Spacer />
-      <Image src={car.imageUrl} alt={car.modelName} width="250" height="200" />
+      <Image src={car.imageUrl} alt={car.modelName} width={250} height={200} />
 
       <Spacer />
       <Flex
