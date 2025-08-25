@@ -1,7 +1,7 @@
 import { Text, Spacer, Flex, Link } from "vcc-ui";
 import { Car } from "../types/car.interface";
 import Image from "next/image";
-import styles from "../../public/components/css/CarCard.module.css";
+import styles from "../../src/styles/CarCard.module.css";
 
 interface CardProsps {
   car: Car;

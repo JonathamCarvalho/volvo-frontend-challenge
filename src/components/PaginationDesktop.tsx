@@ -1,5 +1,5 @@
 import { IconButton } from "vcc-ui";
-import styles from "../../public/css/paginationDesktop.module.css";
+import styles from "../../src/styles/paginationDesktop.module.css";
 
 interface PaginationDesktopProps {
   onClickLeft: () => void;

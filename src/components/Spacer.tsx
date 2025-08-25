@@ -1,5 +1,5 @@
-import sytles from "../../public/css/spacer.module.css";
+import styles from "../../src/styles/spacer.module.css";
 
 export function Spacer() {
-  return <div className={sytles.spacer}></div>;
+  return <div className={styles.spacer}></div>;
 }

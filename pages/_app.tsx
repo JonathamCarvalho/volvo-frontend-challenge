@@ -1,5 +1,5 @@
 import { HomeCompent } from "../src/components/HomeComponent";
-import "../public/css/styles.css";
+import "../src/styles/styles.css";
 import { StyleProvider, ThemePicker } from "vcc-ui";
 import React from "react";
 

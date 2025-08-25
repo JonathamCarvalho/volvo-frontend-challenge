@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useCars } from "../hooks/useCars";
 import { CarCard } from "./CarCard";
-import styles from "../../public/css/home.module.css";
+import styles from "../../src/styles/home.module.css";
 import { Text } from "vcc-ui";
 import { Spacer } from "./Spacer";
 import PaginationDesktop from "./PaginationDesktop";
